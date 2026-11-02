@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #fdf4f7; color: #2b2b2b; }
+header { background: #c2185b; color: white; padding: 1.5rem 2rem; }
+header h1 { margin: 0 0 .25rem; }
+header p { margin: 0; opacity: .9; }
+main { max-width: 860px; margin: 1.5rem auto; padding: 0 1rem; }
+section { background: white; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: .5rem; border-bottom: 1px solid #eee; }
+button { background: #c2185b; color: white; border: 0; border-radius: 6px; padding: .4rem .8rem; cursor: pointer; }
+button.peligro { background: #666; }
+input { padding: .4rem; margin-right: .4rem; border: 1px solid #ccc; border-radius: 6px; }
+.mensaje:empty { display: none; }
+.mensaje.ok { border-left: 4px solid #2e7d32; }
+.mensaje.error { border-left: 4px solid #c62828; }
+.agotado { color: #c62828; font-weight: bold; }
